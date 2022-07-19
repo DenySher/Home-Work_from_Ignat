@@ -1,0 +1,73 @@
+h3 {
+    margin: 0%;
+    padding: 0%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    padding: 8px;
+    background-color: rgb(229, 227, 227);
+}
+
+.Img {
+    display: flex;
+    align-self: flex-end;
+    width: 25%;
+    align-items: center;
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.tail {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.messageText {
+    position: relative;
+    display: flex;
+    padding: 10px;
+    background-color: rgb(180, 179, 179);
+    border-radius: 5px 5px 5px 0px;
+}
+
+.messageText::after {
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    bottom: 0px;
+    left: -20px;
+    background-color: rgb(180, 179, 179);
+    border-radius: 50%
+}
+
+.nameMessage {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    color: rgb(135, 14, 146);
+}
+
+.message {
+    margin: 0%;
+    padding: 0%;
+    color: rgb(62, 61, 61);
+}
+
+.time {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    opacity: 0.3;
+}
