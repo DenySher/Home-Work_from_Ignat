@@ -13,6 +13,10 @@ function Message(props: PropsMassagesDate) {
         <div className={style.container}>
             <div className={style.Img}><img className={style.avatar} src={props.avatar} /></div>
             <div className={style.messageText}>
+                <div className={style.boxTail}>
+                    <span className={style.TopTail}></span>
+                    <span className={style.tail}></span>
+                </div>
                 <div className={style.nameMessage}>
                     <h3 className={style.name}>{props.name}</h3>
                     <h3 className={style.message}>{props.message}</h3>
